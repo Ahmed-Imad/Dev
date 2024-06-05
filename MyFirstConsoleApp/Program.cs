@@ -18,15 +18,16 @@ foreach (ConsoleColor color in Enum.GetValues(typeof(ConsoleColor))) {
         }  
         Console.WriteLine("=====================================");  
         Console.ForegroundColor = ConsoleColor.White;  
+
         // Let's go through all Console colors and set them as background  
         foreach(ConsoleColor color in Enum.GetValues(typeof(ConsoleColor))) {  
-            Console.BackgroundColor = color;  
+            Console.BackgroundColor = color;
             Console.WriteLine( $"Background color set to {color}");  
         }  
         Console.WriteLine("=====================================");  
         // Restore original colors  
         Console.ResetColor(); 
-        Console.ReadKey();  
-    
-Console.WriteLine();
-Console.WriteLine();
+        Console.WriteLine();
+        Console.WriteLine();
+        Console.WriteLine("Colors have been reset to their original values.");
+        Console.ReadKey();      

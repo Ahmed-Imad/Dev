@@ -23,8 +23,3 @@ This is a simple console application written in C# that demonstrates the use of 
     ```sh
     dotnet run
     ```
-
-## Code Overview
-
-```csharp
-
